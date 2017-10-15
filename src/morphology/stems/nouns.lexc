@@ -3,6 +3,8 @@
 !! Nouns in UNDEFINED language are things.
 
 LEXICON Nouns
-noun    Cases   ;
+
+chē̲̂ c1 "horse/two horses" ; ! pl w/ addition of -gau: chē̲̂gau "horses".
+tṓ̲sè c2 "bones/two bones" ; ! sg w/ addition of -gau: tṓ̲sègau "bone."
 
 ! vim: set ft=xfst-lexc:

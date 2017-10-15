@@ -3,6 +3,7 @@
 !! Verbs in UNDEFINED language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
+# ;
+!verb    Persons   ;
 
 ! vim: set ft=xfst-lexc:

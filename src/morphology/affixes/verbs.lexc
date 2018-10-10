@@ -2,15 +2,56 @@
 !  ---------------
 !! The UNDEFINED language verbs inflect in persons.
 
-LEXICON Persons
-+V+1sg:en   #   ;
-+V+2sg:et   #   ;
-+V+3sg:e    #   ;
-+V+1pl:ien  #   ;
-+V+2pl:iet  #   ;
-+V+3pl:iet  #   ;
-+V+inf:0    #   ;
-#:0   Nouns   ;
+LEXICON    Intransitive_Verb_prefixes
+@U.person.1Sg@:@U.person.1Sg@à IncorporatedIV ;
+@U.person.2Sg@:@U.person.2Sg@à IncorporatedIV ;
+@U.person.3Sg@:@U.person.3Sg@à IncorporatedIV ;
+@U.person.1Du@:@U.person.1Du@à IncorporatedIV ;
+@U.person.2Du@:@U.person.2Du@à IncorporatedIV ;
+@U.person.3Du@:@U.person.3Du@à IncorporatedIV ;
+@U.person.1Pl@:@U.person.1Pl@à IncorporatedIV ;
+@U.person.2Pl@:@U.person.2Pl@à IncorporatedIV ;
+@U.person.3Pl@:@U.person.3Pl@à IncorporatedIV ;
+
+LEXICON Transitive_Verb_prefixes
+@U.person.1SgO@:@U.person.1SgO@à IncorporatedTV ;
+
+LEXICON IncorporatedIV
+IVstem ;
+
+LEXICON IncorporatedTV
+# ;
+
+! Stem section to be moved to src/morphology/stems/verbs.lexc
+
+LEXICON IVstem 
+kuyo IVsuf ; ! pseudo orthographic form of Harrington's "bæ`ku·´yω´" ye-sit
+         ! https://www.journals.uchicago.edu/doi/10.1086/463919
+
+! Suffixes back in this file
+
+LEXICON IVsuf
++V: TAM ; 
+
+LEXICON TAM ! tense-aspect-mood
++Ind+Prs: SYN ;
+
+LEXICON SYN ! syntactic suffixes
+TAGS ;
+
+LEXICON TAGS
+@U.person.1Sg@+1Sg:@U.person.1Sg@ # ;
+@U.person.2Sg@+2Sg:@U.person.2Sg@ # ;
+@U.person.3Sg@+3Sg:@U.person.3Sg@ # ;
+@U.person.1Du@+1Du:@U.person.1Du@ # ;
+@U.person.2Du@+2Du:@U.person.2Du@ # ;
+@U.person.3Du@+3Du:@U.person.3Du@ # ;
+@U.person.1Pl@+1Pl:@U.person.1Pl@ # ;
+@U.person.2Pl@+2Pl:@U.person.2Pl@ # ;
+@U.person.3Pl@+3Pl:@U.person.3Pl@ # ;
+
+
+
+
 
 ! vim: set ft=xfst-lexc:
-

@@ -26,86 +26,154 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !! language are presented in this system in terms of the following symbols.
 !! (It is highly suggested to follow existing standards when adding new tags).
 
-!! The parts-of-speech are:
- +N +A +Adv +V                                 !!≈
- +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
 
-!! The parts of speech are further split up into:
- +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+!! POS
+
++N	        !!= * @CODE@
++V	        !!= * @CODE@
++Prop	        !!= * @CODE@
++Adv        !!= * @CODE@
++CC	        !!= * @CODE@
++CS	        !!= * @CODE@
++Interj     !!= * @CODE@
++Pron       !!= * @CODE@
++Num        !!= * @CODE@
++Arab        !!= * @CODE@
++Rom        !!= * @CODE@
++PUNCT      !!= * @CODE@ = punctuation symbols
++LEFT       !!= * @CODE@ = the left part of a paired punctuation symbol
++RIGHT      !!= * @CODE@ = the right part of a paired punctuation symbol
++CLB        !!= * @CODE@ = clause boundary symbols
+
++Loc        !!= * @CODE@ Locative
++Obv
+
++Dim     !!= * @CODE@ Diminutive
+
++Ipc		!!=  * @CODE@ Indeclinable Particle
+
++Dem        !!= * @CODE@ Demonstrative
++Def	    !!= * @CODE@ This is the intransitive demonstrative, i.e. the definite.
++Prox	    !!= * @CODE@ Demonstrative Proximate
++Med	    !!= * @CODE@ Demonstrative Medial
++Dist	    !!= * @CODE@ Demonstrative Distal
++QDL
+
++Foc	    !!= * @CODE@ Focus particle
+
+!! Verbal MSP
++Prs  !!= * @CODE@
++Fut  !!= * @CODE@
++Prt  !!= * @CODE@
++Prf  !!= * @CODE@
++Cnj  !!= * @CODE@
++Int  !!= * @CODE@ This tag is for the Future Intentional
++Def  !!= * @CODE@ This tag is for the Future Definite
+
++Ind  !!= * @CODE@ Indicative, aka Independent
++Imp  !!= * @CODE@ Imperative, consider deleting +Imp tag
++Del  !!= * @CODE@ Delayed imperative
++Imm  !!= * @CODE@ Immediate imperative, consider deleting +Imp tag
++Sbj  !!= * @CODE@ Subjunctive, aka Conjunct mode, ê-
++Cond !!= * @CODE@ TODO: Should Future Conditional be tagget Fut only? Conor: we will split the Future tags
+
+
+
+
++1Sg    !!= * @CODE@ first singular
++2Sg    !!= * @CODE@ etc
++2Sg/Pl   !!= * @CODE@ Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
++3Sg    !!= * @CODE@
+
++1Pl    !!= * @CODE@ 1Pl is exclusive plural (I, them, not you)
++2Pl    !!= * @CODE@
++3Pl    !!= * @CODE@
++12Pl   !!= * @CODE@ 12Pl is inclusive plural (I, you, ...)
++4Sg    !!= * @CODE@ Fourth Person inanimate singlar (used only in the VII paradigms)
++4Pl    !!= * @CODE@ Fourth Person inanimate plural (used only in the VII paradigms)
++4Sg/Pl    !!= * @CODE@
++5Sg/Pl    !!= * @CODE@
+
++1SgO   !!= * @CODE@ objective conjugation
++2SgO   !!= * @CODE@
++2Sg/PlO   !!= * @CODE@ Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
++3SgO   !!= * @CODE@
++SgO    !!= * @CODE@
++1PlO   !!= * @CODE@
++2PlO   !!= * @CODE@
++3PlO   !!= * @CODE@
++PlO    !!= * @CODE@
++4Sg/PlO !!= * @CODE@ ambiguous 4th person (both Singular and Plural)
++5Sg/PlO !!= * @CODE@ ambiguous 5th person (both Singular and Plural)
++X !!= * @CODE@ Unspecified actor forms Okimāsis p. 118
+
+
+!! Nominal MSP
++Sg		 !!= * @CODE@ singular
++Pl		 !!= * @CODE@ plural
+
++Px1Sg	 !!= * @CODE@ person prefixes for nouns
++Px2Sg	 !!= * @CODE@
++Px3Sg	 !!= * @CODE@
++Px4Sg	 !!= * @CODE@
++Px1Pl	 !!= * @CODE@ obviative
++Px12Pl	 !!= * @CODE@ inclusive
++Px2Pl	 !!= * @CODE@
++Px3Pl	 !!= * @CODE@
++Px4Pl	 !!= * @CODE@
++Der/Dim !!= * @CODE@ diminutive derivation
+
+RdplW+ !!= * @CODE@ Reduplication Type 1 (Weak)
+RdplS+ !!= * @CODE@ Reduplication Type 2 (Strong)
+
++Der/Com !!= * @CODE@ Comitative circumfix (wîci-...-m)
++Der/X !!= * @CODE@ VTI x-actor to VII-1
+
+!! Verb conjugation (transitivity + animacy classes)
++AI      !!= * @CODE@ intransitive with animate subject,
++II      !!= * @CODE@ intransitive with inanimate subject,
++TA      !!= * @CODE@ transitive with animate object, and
++TI      !!= * @CODE@ transitive with inanimate object.
+
+!! Noun animacy and dependency classes
++A		 !!= * @CODE@ animate noun
++I		 !!= * @CODE@ inanimate noun
++D		 !!= * @CODE@ dependent noun
+
++Incl    !!= * @CODE@ me too, etc.
++Qst     !!= * @CODE@ yes-no question particle ci
 
 !! The Usage extents are marked using following tags:
  +Err/Orth   
  +Use/-Spell 
 
-!! The nominals are inflected in the following Case and Number
- +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
 
-!! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
-!! The comparative forms are:
- +Comp +Superl
-!! Numerals are classified under:
- +Attr +Card
- +Ord 
-!! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
-!! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
-!! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
-
-! Abbreviated words are classified with:
- +ABBR +ACR 
-!! Special symbols are classified with:
-+CLB +PUNCT +LEFT +RIGHT
-!! The verbs are syntactically split according to transitivity:
- +TV +IV
-!! Special multiword units are analysed with:
- +Multi
-!! Non-dictionary words can be recognised with:
- +Guess
-
-!! Question and Focus particles:
- +Qst +Foc
-
-
-!! Semantics are classified with
- +Mal +Fem +Sur 
- +Plc 
- +Org
- +Obj
- +Ani
- +Hum
- +Plant
- +Group
- +Time 
- +Txt
- +Route
- +Measr 
- +Wthr
- +Build 
- +Edu
- +Veh
- +Clth
-
-
-!! Derivations are classified under the morphophonetic form of the suffix, the
-!! source and target part-of-speech.
- +V→N +V→V +V→A
- +Der/xxx
-
-
-!! Morphophonology
-!  ---------------
-!! To represent phonologic variations in word forms we use the following
-!! symbols in the lexicon files:
- {aä} {oö} {uü}
-
-!! And following triggers to control variation
- {front} {back}
 
 !! !!Flag diacritics
+
+
+@U.person.1Sg@    !!= | @CODE@ | IV person tags
+@U.person.2Sg@    !!= | @CODE@ | IV person tags
+@U.person.3Sg@    !!= | @CODE@ | IV person tags
+@U.person.1Du@    !!= | @CODE@ | IV person tags
+@U.person.2Du@    !!= | @CODE@ | IV person tags
+@U.person.3Du@    !!= | @CODE@ | IV person tags
+@U.person.1Pl@    !!= | @CODE@ | IV person tags
+@U.person.2Pl@    !!= | @CODE@ | IV person tags
+@U.person.3Pl@    !!= | @CODE@ | IV person tags
+
+@U.person.1SgO@    !!= | @CODE@ | IV person tags
+@U.person.2SgO@    !!= | @CODE@ | IV person tags
+@U.person.3SgO@    !!= | @CODE@ | IV person tags
+@U.person.1DuO@    !!= | @CODE@ | IV person tags
+@U.person.2DuO@    !!= | @CODE@ | IV person tags
+@U.person.3DuO@    !!= | @CODE@ | IV person tags
+@U.person.1PlO@    !!= | @CODE@ | IV person tags
+@U.person.2PlO@    !!= | @CODE@ | IV person tags
+@U.person.3PlO@    !!= | @CODE@ | IV person tags
+
+
+!! !crk flags
 !! We have manually optimised the structure of our lexicon using following
 !! flag diacritics to restrict morhpological combinatorics - only allow compounds
 !! with verbs if the verb is further derived into a noun again:
@@ -125,7 +193,7 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.CmpNone.FALSE@ !!≈ | @CODE@ | Combines with the prev tag to prohibit compounding
  @P.CmpOnly.TRUE@  !!≈ | @CODE@ | Sets a flag to indicate that the word has passed R
  @D.CmpOnly.FALSE@ !!≈ | @CODE@ | Disallow words coming directly from root.
-!! 
+
 !! Use the following flag diacritics to control downcasing of derived proper
 !! nouns (e.g. Finnish Pariisi -> pariisilainen). See e.g. North Sámi for how to use
 !! these flags. There exists a ready-made regex that will do the actual down-casing
@@ -136,11 +204,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 LEXICON Root
 !! The word forms in UNDEFINED language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
+   Nouns ;
+   Intransitive_Verb_prefixes ;
+   Transitive_Verb_prefixes ;
+   Pronouns ;
+   Numerals ;
 
 ! vim: set ft=xfst-lexc:

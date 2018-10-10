@@ -4,33 +4,91 @@
 
 LEXICON    Intransitive_Verb_prefixes
 @U.person.1Sg@:@U.person.1Sg@à IncorporatedIV ;
-@U.person.2Sg@:@U.person.2Sg@à IncorporatedIV ;
-@U.person.3Sg@:@U.person.3Sg@à IncorporatedIV ;
-@U.person.1Du@:@U.person.1Du@à IncorporatedIV ;
-@U.person.2Du@:@U.person.2Du@à IncorporatedIV ;
-@U.person.3Du@:@U.person.3Du@à IncorporatedIV ;
-@U.person.1Pl@:@U.person.1Pl@à IncorporatedIV ;
-@U.person.2Pl@:@U.person.2Pl@à IncorporatedIV ;
-@U.person.3Pl@:@U.person.3Pl@à IncorporatedIV ;
+@U.person.2Sg@:@U.person.2Sg@èm IncorporatedIV ;
+@U.person.3Sg@:@U.person.3Sg@ IncorporatedIV ;
+@U.person.4Du@:@U.person.4Du@è IncorporatedIV ;
+
+@U.person.2Du@:@U.person.2Du@mà IncorporatedIV ;
+@U.person.3Du@:@U.person.3Du@è̲ IncorporatedIV ;
+@U.person.4Du@:@U.person.4Du@è IncorporatedIV ;
+
+@U.person.1Pl@:@U.person.1Pl@è IncorporatedIV ;
+@U.person.2Pl@:@U.person.2Pl@bà IncorporatedIV ;
+@U.person.3Pl@:@U.person.3Pl@á IncorporatedIV ;
+@U.person.4Pl@:@U.person.4Pl@è IncorporatedIV ;
 
 LEXICON Transitive_Verb_prefixes
-@U.person.1SgO@:@U.person.1SgO@à IncorporatedTV ;
+@U.person.1SgOSg@:@U.person.1SgOSg@gà IncorporatedTV ;
+@U.person.1SgODu@:@U.person.1SgODu@nèn IncorporatedTV ;
+@U.person.1SgOPl@:@U.person.1SgOPl@gàj IncorporatedTV ;
+@U.person.1SgOIn@:@U.person.1SgOIn@dé IncorporatedTV ;
+
+@U.person.2SgOSg@:@U.person.2SgOSg@à IncorporatedTV ;
+@U.person.2SgODu@:@U.person.2SgODu@mèn IncorporatedTV ;
+@U.person.2SgOPl@:@U.person.2SgOPl@bàj IncorporatedTV ;
+@U.person.2SgOIn@:@U.person.2SgOIn@bé IncorporatedTV ;
+
+@U.person.3SgOSg@:@U.person.3SgOSg@ IncorporatedTV ;
+@U.person.3SgODu@:@U.person.3SgODu@è̲ IncorporatedTV ;
+@U.person.3SgOPl@:@U.person.3SgOPl@gà IncorporatedTV ;
+@U.person.3SgOIn@:@U.person.3SgOIn@é IncorporatedTV ;
+
+!@U.person.4SgOSg@:@U.person.4SgOSg@ IncorporatedTV ; ! the inverse person
+!@U.person.4SgODu@:@U.person.4SgODu@ IncorporatedTV ; ! the inverse person
+!@U.person.4SgOPl@:@U.person.4SgOPl@ IncorporatedTV ; ! the inverse person
+
+! Dual subject						
+@U.person.1DuOSg@:@U.person.1DuOSg@á IncorporatedTV ; 
+@U.person.1DuODu@:@U.person.1DuODu@èj IncorporatedTV ; 
+@U.person.1DuOPl@:@U.person.1DuOPl@gá IncorporatedTV ; 
+
+@U.person.2DuOSg@:@U.person.2DuOSg@má IncorporatedTV ;
+@U.person.2DuODu@:@U.person.2DuODu@mén IncorporatedTV ;
+@U.person.2DuOPl@:@U.person.2DuOPl@mán IncorporatedTV ;
+@U.person.2DuOIn@:@U.person.2DuOIn@mén IncorporatedTV ;
+
+@U.person.3DuOSg@:@U.person.3DuOSg@é̲ IncorporatedTV ;
+@U.person.3DuODu@:@U.person.3DuODu@én IncorporatedTV ;
+@U.person.3DuOPl@:@U.person.3DuOPl@én IncorporatedTV ;
+@U.person.3DuOIn@:@U.person.3DuOIn@dé IncorporatedTV ;
+
+!@U.person.4DuOSg@:@U.person.4DuOSg@ IncorporatedTV ; ! the inverse person
+!@U.person.4DuODu@:@U.person.4DuODu@ IncorporatedTV ; ! the inverse person
+!@U.person.4DuOPl@:@U.person.4DuOPl@ IncorporatedTV ; ! the inverse person
+
+! Plural subject					
+!@U.person.1PlOSg@:@U.person.1PlOSg@ IncorporatedTV ;
+!@U.person.1PlODu@:@U.person.1PlODu@ IncorporatedTV ;
+!@U.person.1PlOPl@:@U.person.1PlOPl@ IncorporatedTV ;
+									
+@U.person.2PlOSg@:@U.person.2PlOSg@bá IncorporatedTV ;
+@U.person.2PlODu@:@U.person.2PlODu@bèj IncorporatedTV ;
+@U.person.2PlOPl@:@U.person.2PlOPl@báj IncorporatedTV ;
+@U.person.2PlOIn@:@U.person.2PlOIn@béj IncorporatedTV ;
+
+@U.person.3PlOSg@:@U.person.3PlOSg@á IncorporatedTV ;
+@U.person.3PlODu@:@U.person.3PlODu@èj IncorporatedTV ;
+@U.person.3PlOPl@:@U.person.3PlOPl@gá IncorporatedTV ;
+
+@U.person.4PlOSg@:@U.person.4PlOSg@é IncorporatedTV ; ! the inverse person
+@U.person.4PlODu@:@U.person.4PlODu@èj IncorporatedTV ; ! the inverse person
+@U.person.4PlOPl@:@U.person.4PlOPl@éj IncorporatedTV ; ! the inverse person
+
+
 
 LEXICON IncorporatedIV
 IVstem ;
 
 LEXICON IncorporatedTV
-# ;
+TVstem ;
 
-! Stem section to be moved to src/morphology/stems/verbs.lexc
-
-LEXICON IVstem 
-kuyo IVsuf ; ! pseudo orthographic form of Harrington's "bæ`ku·´yω´" ye-sit
-         ! https://www.journals.uchicago.edu/doi/10.1086/463919
 
 ! Suffixes back in this file
 
-LEXICON IVsuf
+LEXICON IVsuf ! perhaps unify
++V: TAM ; 
+
+LEXICON TVsuf ! perhaps unify
 +V: TAM ; 
 
 LEXICON TAM ! tense-aspect-mood
@@ -40,16 +98,79 @@ LEXICON SYN ! syntactic suffixes
 TAGS ;
 
 LEXICON TAGS
+
+! Intransitive person tags
 @U.person.1Sg@+1Sg:@U.person.1Sg@ # ;
 @U.person.2Sg@+2Sg:@U.person.2Sg@ # ;
 @U.person.3Sg@+3Sg:@U.person.3Sg@ # ;
-@U.person.1Du@+1Du:@U.person.1Du@ # ;
+@U.person.4Sg@+4Sg:@U.person.4Sg@ # ; ! the inverse person
+
 @U.person.2Du@+2Du:@U.person.2Du@ # ;
 @U.person.3Du@+3Du:@U.person.3Du@ # ;
+@U.person.4Du@+4Sg:@U.person.4Du@ # ; ! the inverse person
+
 @U.person.1Pl@+1Pl:@U.person.1Pl@ # ;
 @U.person.2Pl@+2Pl:@U.person.2Pl@ # ;
 @U.person.3Pl@+3Pl:@U.person.3Pl@ # ;
+@U.person.4Pl@+4Sg:@U.person.4Pl@ # ; ! the inverse person
 
+! Transitive person tags
+! Singular subject
+@U.person.1SgOSg@+1SgOSg:@U.person.1SgOSg@ # ;
+@U.person.1SgODu@+1SgODu:@U.person.1SgODu@ # ;
+@U.person.1SgOPl@+1SgOPl:@U.person.1SgOPl@ # ;
+@U.person.1SgOIn@+1SgOIn:@U.person.1SgOIn@ # ;
+
+@U.person.2SgOSg@+2SgOSg:@U.person.2SgOSg@ # ;
+@U.person.2SgODu@+2SgODu:@U.person.2SgODu@ # ;
+@U.person.2SgOPl@+2SgOPu:@U.person.2SgOPl@ # ;
+@U.person.2SgOIn@+2SgOIn:@U.person.2SgOIn@ # ;
+
+@U.person.3SgOSg@+3SgOSg:@U.person.3SgOSg@ # ;
+@U.person.3SgODu@+3SgODu:@U.person.3SgODu@ # ;
+@U.person.3SgOPl@+3SgOPl:@U.person.3SgOPl@ # ;
+@U.person.3SgOIn@+3SgOIn:@U.person.3SgOIn@ # ;
+
+!@U.person.4SgOSg@+4SgOSg:@U.person.4SgOSg@ # ; ! the inverse person
+!@U.person.4SgODu@+4SgODu:@U.person.4SgODu@ # ; ! the inverse person
+!@U.person.4SgOPl@+4SgOPl:@U.person.4SgOPl@ # ; ! the inverse person
+
+! Dual subject
+@U.person.1DuOSg@+1DuOSg:@U.person.1DuOSg@ # ; 
+@U.person.1DuODu@+1DuODu:@U.person.1DuODu@ # ; 
+@U.person.1DuOPl@+1DuOPl:@U.person.1DuOPl@ # ; 
+
+@U.person.2DuOSg@+2DuOSg:@U.person.2DuOSg@ # ;
+@U.person.2DuODu@+2DuODu:@U.person.2DuODu@ # ;
+@U.person.2DuOPl@+2DuOPl:@U.person.2DuOPl@ # ;
+@U.person.2DuOIn@+2DuOIn:@U.person.2DuOIn@ # ;
+
+@U.person.3DuOSg@+3DuOSg:@U.person.3DuOSg@ # ;
+@U.person.3DuODu@+3DuODu:@U.person.3DuODu@ # ;
+@U.person.3DuOPl@+3DuOPl:@U.person.3DuOPl@ # ;
+@U.person.3DuOIn@+3DuOIn:@U.person.3DuOIn@ # ;
+
+!@U.person.4DuOSg@+4SgOSg:@U.person.4DuOSg@ # ; ! the inverse person
+!@U.person.4DuODu@+4SgODu:@U.person.4DuODu@ # ; ! the inverse person
+!@U.person.4DuOPl@+4SgOPl:@U.person.4DuOPl@ # ; ! the inverse person
+
+! Plural subject
+!@U.person.1PlOSg@+1PlOSg:@U.person.1PlOSg@ # ;
+!@U.person.1PlODu@+1PlODu:@U.person.1PlODu@ # ;
+!@U.person.1PlOPl@+1PlOPl:@U.person.1PlOPl@ # ;
+
+@U.person.2PlOSg@+2PlOSg:@U.person.2PlOSg@ # ;
+@U.person.2PlODu@+2PlODu:@U.person.2PlODu@ # ;
+@U.person.2PlOPl@+2PlOPl:@U.person.2PlOPl@ # ;
+@U.person.2PlOIn@+2PlOIn:@U.person.2PlOIn@ # ;
+
+@U.person.3PlOSg@+3PlOSg:@U.person.3PlOSg@ # ;
+@U.person.3PlODu@+3PlODu:@U.person.3PlODu@ # ;
+@U.person.3PlOPl@+3PlOPl:@U.person.3PlOPl@ # ;
+
+@U.person.4PlOSg@+4SgOSg:@U.person.4PlOSg@ # ; ! the inverse person
+@U.person.4PlODu@+4SgODu:@U.person.4PlODu@ # ; ! the inverse person
+@U.person.4PlOPl@+4SgOPl:@U.person.4PlOPl@ # ; ! the inverse person
 
 
 

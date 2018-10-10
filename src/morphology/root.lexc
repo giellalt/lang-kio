@@ -155,22 +155,58 @@ RdplS+ !!= * @CODE@ Reduplication Type 2 (Strong)
 @U.person.1Sg@    !!= | @CODE@ | IV person tags
 @U.person.2Sg@    !!= | @CODE@ | IV person tags
 @U.person.3Sg@    !!= | @CODE@ | IV person tags
+@U.person.4Sg@    !!= | @CODE@ | IV person tags
 @U.person.1Du@    !!= | @CODE@ | IV person tags
 @U.person.2Du@    !!= | @CODE@ | IV person tags
 @U.person.3Du@    !!= | @CODE@ | IV person tags
+@U.person.4Du@    !!= | @CODE@ | IV person tags
 @U.person.1Pl@    !!= | @CODE@ | IV person tags
 @U.person.2Pl@    !!= | @CODE@ | IV person tags
 @U.person.3Pl@    !!= | @CODE@ | IV person tags
+@U.person.4Pl@    !!= | @CODE@ | IV person tags
 
-@U.person.1SgO@    !!= | @CODE@ | IV person tags
-@U.person.2SgO@    !!= | @CODE@ | IV person tags
-@U.person.3SgO@    !!= | @CODE@ | IV person tags
-@U.person.1DuO@    !!= | @CODE@ | IV person tags
-@U.person.2DuO@    !!= | @CODE@ | IV person tags
-@U.person.3DuO@    !!= | @CODE@ | IV person tags
-@U.person.1PlO@    !!= | @CODE@ | IV person tags
-@U.person.2PlO@    !!= | @CODE@ | IV person tags
-@U.person.3PlO@    !!= | @CODE@ | IV person tags
+
+@U.person.1SgOSg@    !!= | @CODE@ | TV person flags
+@U.person.1SgODu@    !!= | @CODE@ | TV person flags
+@U.person.1SgOPl@    !!= | @CODE@ | TV person flags
+@U.person.1SgOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.2SgOSg@    !!= | @CODE@ | TV person flags
+@U.person.2SgODu@    !!= | @CODE@ | TV person flags
+@U.person.2SgOPl@    !!= | @CODE@ | TV person flags
+@U.person.2SgOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.3SgOSg@    !!= | @CODE@ | TV person flags
+@U.person.3SgODu@    !!= | @CODE@ | TV person flags
+@U.person.3SgOPl@    !!= | @CODE@ | TV person flags
+@U.person.3SgOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.1DuOSg@    !!= | @CODE@ | TV person flags
+@U.person.1DuODu@    !!= | @CODE@ | TV person flags
+@U.person.1DuOPl@    !!= | @CODE@ | TV person flags
+
+@U.person.2DuOSg@    !!= | @CODE@ | TV person flags
+@U.person.2DuODu@    !!= | @CODE@ | TV person flags
+@U.person.2DuOPl@    !!= | @CODE@ | TV person flags
+@U.person.2DuOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.3DuOSg@    !!= | @CODE@ | TV person flags
+@U.person.3DuODu@    !!= | @CODE@ | TV person flags
+@U.person.3DuOPl@    !!= | @CODE@ | TV person flags
+@U.person.3DuOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.2PlOSg@    !!= | @CODE@ | TV person flags
+@U.person.2PlODu@    !!= | @CODE@ | TV person flags
+@U.person.2PlOPl@    !!= | @CODE@ | TV person flags
+@U.person.2PlOIn@    !!= | @CODE@ | TV person flags
+
+@U.person.3PlOSg@    !!= | @CODE@ | TV person flags
+@U.person.3PlODu@    !!= | @CODE@ | TV person flags
+@U.person.3PlOPl@    !!= | @CODE@ | TV person flags
+
+@U.person.4PlOSg@    !!= | @CODE@ | TV person flags
+@U.person.4PlODu@    !!= | @CODE@ | TV person flags
+@U.person.4PlOPl@    !!= | @CODE@ | TV person flags
 
 
 !! !crk flags

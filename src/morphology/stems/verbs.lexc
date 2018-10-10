@@ -2,8 +2,14 @@
 !  -----
 !! Verbs in UNDEFINED language are actions.
 
-LEXICON Verbs
-# ;
-!verb    Persons   ;
+
+LEXICON IVstem 
+kuyo IVsuf ; ! pseudo orthographic form of Harrington's "bæ`ku·´yω´" ye-sit
+         ! https://www.journals.uchicago.edu/doi/10.1086/463919
+
+LEXICON TVstem
+dey TVsuf ; ! pseudo orthographic form of Harrington's "`dey`" he-wanted
+         ! https://www.journals.uchicago.edu/doi/10.1086/463919
+
 
 ! vim: set ft=xfst-lexc:

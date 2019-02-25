@@ -6,6 +6,8 @@ and a dummy verb and suffixes + flag diacritics for governing them.
 
 The analyser is thus in an experimental stage, and cannot be used to anything.
 
+For Kiowa, we have also been working on a keyboard layout.
+
 ----
 
 The structure of the source file catalogue is the same for all

@@ -238,12 +238,14 @@ RdplS+ !!= * @CODE@ Reduplication Type 2 (Strong)
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
 LEXICON Root
-!! The word forms in UNDEFINED language start from the lexeme roots of basic
+!! The word forms in Kiowa language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns ;
    Intransitive_Verb_prefixes ;
    Transitive_Verb_prefixes ;
    Pronouns ;
    Numerals ;
+    Punctuation ;
+    Symbols     ;
 
 ! vim: set ft=xfst-lexc:

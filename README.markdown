@@ -21,7 +21,7 @@ Documentation
 
 Documentation can be found at:
 
--   <https://giellalt.uit.no/lang/kiodoc/index.html>
+-   <https://giellalt.uit.no/lang/kio/KiowaDocumentation.html>
 -   <https://giellalt.uit.no/index.html>
 
 Core dependencies

@@ -605,79 +605,6 @@ These were the set types.
 
 
 
-Nouns
-
-
-
-Numerals
-Numerals in the Kiowa language are numbers.
-
-
-Verbs
-Verbs in the Kiowa language are actions.
-
-
-
-
-
-Prefixes
-Prefixes in the Kiowa language are bound to beginning of other words.
-
-
-
-Adjectives
-Adjectives in Kiowa perhaps do not exist...
-
-
-Pronouns
-Pronouns in the Kiowa language are references to things.
-
-
-
-=================================== !
-The Kiowa morphophonological/twolc rules file !
-=================================== !
-
-
-
-
-
-
-
-
-* *primus%>s*
-* *primus00*
-
-
-* examples:*
-
-* examples:*
-
-
-* examples:*
-
-* examples:*
-
-# Symbol affixes
-
-
-
-
-
-Noun inflection
-The Kiowa language nouns inflect in cases.
-
-
-
-
-
-Proper noun inflection
-The Kiowa language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-
 Verb inflection
 The Kiowa language verbs inflect in persons.
 
@@ -725,8 +652,81 @@ The Kiowa language verbs inflect in persons.
 
 
 
+Proper noun inflection
+The Kiowa language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+
 Adjective inflection
 Adjective inflection in Kiowa, if any.
+
+
+
+Noun inflection
+The Kiowa language nouns inflect in cases.
+
+
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+=================================== !
+The Kiowa morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+
+
+
+
+* *primus%>s*
+* *primus00*
+
+
+* examples:*
+
+* examples:*
+
+
+* examples:*
+
+* examples:*
+Verbs
+Verbs in the Kiowa language are actions.
+
+
+
+
+
+Pronouns
+Pronouns in the Kiowa language are references to things.
+
+
+
+Numerals
+Numerals in the Kiowa language are numbers.
+
+
+Adjectives
+Adjectives in Kiowa perhaps do not exist...
+
+
+Prefixes
+Prefixes in the Kiowa language are bound to beginning of other words.
+
+
+
+Nouns
 
 
 
@@ -955,22 +955,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Kiowa are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -1021,6 +1005,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Kiowa are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R

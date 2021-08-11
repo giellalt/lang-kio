@@ -3,7 +3,7 @@ The Kiowa morphology and tools
 
 [![GitHub issues](https://img.shields.io/github/issues-raw/giellalt/lang-kio)](https://github.com/giellalt/lang-kio/issues)
 [![Build Status](https://github.com/giellalt/lang-kio/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-kio/actions)
-[![License](https://img.shields.io/github/license/giellalt/lang-kio)](https://raw.githubusercontent.com/giellalt/lang-kio/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-kio)](https://github.com/giellalt/lang-kio/blob/main/LICENSE)
 
 This repository contains finite state source files for the Kiowa language,
 for building morphological analysers, proofing tools

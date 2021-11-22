@@ -606,42 +606,7 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-kio/blob/main/../src/cg3/functions.cg3)</small>Nouns
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/nouns.lexc)</small>Prefixes
-Prefixes in the Kiowa language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/prefixes.lexc)</small>Adjectives
-Adjectives in Kiowa perhaps do not exist...
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
-Verbs in the Kiowa language are actions.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Kiowa language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
-Pronouns in the Kiowa language are references to things.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/pronouns.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-kio/blob/main/../src/cg3/functions.cg3)</small>=================================== !
 The Kiowa morphophonological/twolc rules file !
 =================================== !
 
@@ -665,29 +630,7 @@ The Kiowa morphophonological/twolc rules file !
 
 * examples:*
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/phonology.twolc)</small>Noun inflection
-The Kiowa language nouns inflect in cases.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
-Adjective inflection in Kiowa, if any.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/phonology.twolc)</small>Verb inflection
 The Kiowa language verbs inflect in persons.
 
 
@@ -743,7 +686,64 @@ nouns, but with a colon (':') as separator.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/propernouns.lexc)</small>
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/propernouns.lexc)</small>Noun inflection
+The Kiowa language nouns inflect in cases.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/nouns.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
+Adjective inflection in Kiowa, if any.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/affixes/adjectives.lexc)</small>Pronouns
+Pronouns in the Kiowa language are references to things.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/pronouns.lexc)</small>Numerals
+Numerals in the Kiowa language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/numerals.lexc)</small>Verbs
+Verbs in the Kiowa language are actions.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/verbs.lexc)</small>Prefixes
+Prefixes in the Kiowa language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/prefixes.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/prefixes.lexc)</small>Nouns
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
+Adjectives in Kiowa perhaps do not exist...
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/stems/adjectives.lexc)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Kiowa LANGUAGE.
 
 

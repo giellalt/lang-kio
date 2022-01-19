@@ -7,6 +7,13 @@
 
 This page documents the work on the **Kiowa language model**. 
 
+The model contains a handful of nouns, as well as the number suffix,
+and a dummy verb and suffixes + flag diacritics for governing them.
+
+The analyser is thus in an experimental stage, and cannot be used to anything.
+
+For Kiowa, we have also been working on a keyboard layout.
+
 # Project documentation
 
 * (Add links to project specific documentation here as needed. Keep the documentation in the `docs/` directory.)

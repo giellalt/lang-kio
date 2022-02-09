@@ -1,14 +1,12 @@
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Kiowa LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
 The morphological analyses of wordforms for the Kiowa
 language are presented in this system in terms of the following symbols.
 (It is highly suggested to follow existing standards when adding new tags).
-
 
 POS
 
@@ -59,9 +57,6 @@ Verbal MSP
 * +Sbj   Subjunctive, aka Conjunct mode, ê-
 * +Cond  TODO: Should Future Conditional be tagget Fut only? Conor: we will split the Future tags
 
-
-
-
 * +1Sg     first singular
 * +2Sg     etc
 * +2Sg/Pl    Used in the syncretic 2sg/pl -> 1pl in the VTA paradigms
@@ -88,7 +83,6 @@ Verbal MSP
 * +4Sg/PlO  ambiguous 4th person (both Singular and Plural)
 * +5Sg/PlO  ambiguous 5th person (both Singular and Plural)
 * +X  Unspecified actor forms Okimāsis p. 118
-
 
 Nominal MSP
 * +Sg		  singular
@@ -127,10 +121,7 @@ Noun animacy and dependency classes
 
 The Usage extents are marked using following tags:
 
-
-
 ## Flag diacritics
-
 
 |  @U.person.1Sg@     | IV person tags
 |  @U.person.2Sg@     | IV person tags
@@ -144,7 +135,6 @@ The Usage extents are marked using following tags:
 |  @U.person.2Pl@     | IV person tags
 |  @U.person.3Pl@     | IV person tags
 |  @U.person.4Pl@     | IV person tags
-
 
 |  @U.person.1SgOSg@     | TV person flags
 |  @U.person.1SgODu@     | TV person flags
@@ -188,7 +178,6 @@ The Usage extents are marked using following tags:
 |  @U.person.4PlODu@     | TV person flags
 |  @U.person.4PlOPl@     | TV person flags
 
-
 ### crk flags
 We have manually optimised the structure of our lexicon using following
 flag diacritics to restrict morhpological combinatorics - only allow compounds
@@ -221,4 +210,8 @@ The word forms in Kiowa language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-kio/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-kio/blob/main/src/fst/root.lexc)</small>
+
+---
+

@@ -5,7 +5,6 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-kio)](https://github.com/giellalt/lang-kio/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-kio)](https://github.com/giellalt/lang-kio/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-kio?label=CI)](https://builds.giellalt.org/pipelines/lang-kio/builds/latest)
-[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Kiowa language model**. 
 
